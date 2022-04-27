@@ -1,0 +1,30 @@
+.bg {
+  --color-1: rgb(195, 42, 255);
+  --color-2: rgb(255, 238, 0);
+  background: linear-gradient(90deg, var(--color-1), var(--color-2));
+  min-height: 100vh;
+}
+.bgm {
+  --color-1: rgb(195, 42, 255);
+  --color-2: rgb(0, 255, 221);
+  background: linear-gradient(90deg, var(--color-1), var(--color-2));
+  min-height: 100vh;
+} 
+.bgn {
+  --color-1: rgb(255, 0, 191);
+  --color-2: rgb(255, 238, 0);
+  background: linear-gradient(90deg, var(--color-1), var(--color-2));
+  min-height: 100vh;
+} 
+.bgb {
+  --color-1: rgb(255, 112, 243);
+  --color-2: rgba(74, 249, 255, 0.918);
+  background: linear-gradient(90deg, var(--color-1), var(--color-2));
+  min-height: 100vh;
+} 
+.bgv {
+  --color-1: rgb(255, 230, 0);
+  --color-2: rgb(0, 238, 255);
+  background: linear-gradient(90deg, var(--color-1), var(--color-2));
+  min-height: 100vh;
+} 
