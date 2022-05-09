@@ -50,7 +50,7 @@ export default class Cart extends React.Component {
             totalHarga += (item.price * item.qty)
         })
 
-        // memsukkan data cart, user, dan total harga pada state
+        // memasukkan data cart, user, dan total harga pada state
         this.setState({
             cart: tempCart,
             total: totalHarga

@@ -3,9 +3,9 @@ import React from "react"
 export default class ProductList extends React.Component {
     render() {
         return (
-            <div className="col">
-                <div className="card p-2 h-100">
-                    <img src={this.props.image} className="card-img-top" alt={this.props.name} height="180"/>
+            <div className="col-3 my-2">
+                <div className="card h-100 p-2">
+                    <img src={this.props.image} className="card-img-top" alt={this.props.name} />
                     <div className="card-body">
                         <h5 className="card-title">{this.props.name}</h5><hr />
                         <p className="card-text">Price: Rp {this.props.price}</p>
